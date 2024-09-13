@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -53,3 +54,16 @@ Route::get('/rooms', function(){return view('resources.pages.rooms');});
  * Route Get Login Screen
  */
 Route::get('/login', function(){return view('resources.pages.auth.login');});
+
+/**
+ * routes/web.php
+ */
+Route::resource('/admin/users', UserController::class)->names([
+    'index' => 'admin.users.index',
+    'create' => 'admin.users.create',
+    'store' => 'admin.users.store',
+    'show' => 'admin.users.show',
+    'edit' => 'admin.users.edit',
+    'update' => 'admin.users.update',
+    'destroy' => 'admin.users.destroy'
+]);
