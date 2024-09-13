@@ -19,7 +19,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg  ftco-navbar-light">
-    @include('resources.components.navbar');
+    @include('resources.components.navbar')
 </nav>
 
 
@@ -35,11 +35,11 @@
   </div>
 </section>
 
-@include('resources.components.abouts');
+@include('resources.components.abouts')
 
-@include('resources.components.book');
+@include('resources.components.book')
 
-@include('resources.components.tour');
+@include('resources.components.tour')
 
 <section class="ftco-gallery">
 <div class="container-fluid">

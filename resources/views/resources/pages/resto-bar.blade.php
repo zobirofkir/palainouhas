@@ -19,7 +19,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg  ftco-navbar-light">
-    @include('resources.components.navbar');
+    @include('resources.components.navbar')
 </nav>
 
 
@@ -38,7 +38,7 @@
   </div>
 </section>
 
-@include('resources.components.menu');
+@include('resources.components.menu')
 
 <section class="ftco-gallery">
   <div class="container-fluid">

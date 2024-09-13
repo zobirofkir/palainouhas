@@ -19,7 +19,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg  ftco-navbar-light">
-    @include('resources.components.navbar');
+    @include('resources.components.navbar')
 </nav>
     
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_3.jpg');">

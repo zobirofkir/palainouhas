@@ -20,7 +20,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg  ftco-navbar-light">
-    @include('resources.components.navbar');
+    @include('resources.components.navbar')
 </nav>
     
 <section class="hero-wrap" style="background-image: url('images/bg_1.jpg');">
@@ -40,23 +40,23 @@
     </div>
 </section>
 
-@include('resources.components.take-tour');
+@include('resources.components.take-tour')
 
-@include('resources.components.reservation');
+@include('resources.components.reservation')
 
-@include('resources.components.abouts');
-
-
-@include('resources.components.services');
+@include('resources.components.abouts')
 
 
-@include('resources.components.rooms');
+@include('resources.components.services')
 
-@include('resources.components.tour');
 
-@include('resources.components.menu');
+@include('resources.components.rooms')
 
-@include('resources.components.single-blog');
+@include('resources.components.tour')
+
+@include('resources.components.menu')
+
+@include('resources.components.single-blog')
 
 <section class="ftco-gallery">
 <div class="container-fluid">
