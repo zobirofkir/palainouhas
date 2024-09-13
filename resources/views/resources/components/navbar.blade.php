@@ -13,6 +13,7 @@
             <li class="nav-item"><a class="nav-link" href="{{url('/resto-bar')}}">Resto &amp; Bar</a></li>
             <li class="nav-item"><a class="nav-link" href="{{url('/blogs')}}">Blog</a></li>
             <li class="nav-item"><a class="nav-link" href="{{url('/contacts')}}">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{url('/login')}}">Login</a></li>
         </ul>
     </div>
 </div>

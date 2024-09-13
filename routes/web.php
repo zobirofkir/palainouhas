@@ -48,3 +48,8 @@ Route::get('/room-single', function(){return view('resources.pages.room-single')
  * Route Get Rooms Screen
  */
 Route::get('/rooms', function(){return view('resources.pages.rooms');});
+
+/**
+ * Route Get Login Screen
+ */
+Route::get('/login', function(){return view('resources.pages.auth.login');});
